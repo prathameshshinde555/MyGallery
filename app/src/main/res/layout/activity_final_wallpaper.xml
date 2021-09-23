@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalWallpaper">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/samu"
+        android:id="@+id/FinalWallpaper">
+    </ImageView>
+
+   <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+       android:gravity="center"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="20dp">
+
+       <LinearLayout
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginStart="85dp"
+           android:layout_marginLeft="85dp"
+           android:background="@drawable/wallb">
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_alignParentRight="true"
+           android:layout_marginEnd="84dp"
+           android:layout_marginRight="84dp"
+           android:background="@drawable/wallb">
+
+       </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnDownload"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="85dp"
+        android:background="@drawable/download"
+        android:layout_marginLeft="85dp">
+
+    </ImageView>
+
+       <ImageView
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:id="@+id/btnWallpaper"
+           android:layout_alignParentRight="true"
+           android:layout_marginEnd="84dp"
+           android:background="@drawable/wallpaper"
+           android:layout_marginRight="84dp">
+
+       </ImageView>
+
+   </RelativeLayout>
+
+</RelativeLayout>

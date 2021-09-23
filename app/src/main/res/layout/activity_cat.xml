@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".CatActivity">
+
+
+    <TextView
+        android:id="@+id/cat_title"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Absrtact"
+        android:layout_marginStart="10dp"
+        android:textSize="40dp"
+        android:fontFamily="@font/nunitosans_extrabold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/cat_count"
+android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat_title"
+        android:layout_marginStart="10dp"
+        android:text="56 Wallpapers Availabel"
+        android:textSize="15dp"
+        android:fontFamily="@font/nunitosans_lightitalic"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/catRcv"
+        android:layout_below="@+id/cat_count"/>
+</RelativeLayout>
